@@ -4,7 +4,7 @@ const https = require("https");
 var app = express();
 app.set("view engine", "ejs");
 
-app.get("/", (req, res) => {
+app.use("/", (req, res) => {
    res.render("index");
 });
 app.listen(3000, function(){
