@@ -7,6 +7,6 @@ app.set("view engine", "ejs");
 app.use("/", (req, res) => {
    res.render("index");
 });
-app.listen(3000, function(){
+app.listen(process.env.PORT||3000, function(){
    console.log("server is running at port 3000...");
 })
