@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "farmcast",
+    "name": "nodetest",
     "builds": [
        { "src": "index.js", "use": "@vercel/node" }
     ],
